@@ -23,19 +23,17 @@ dynamic = ["version"]
 #  "Programming Language :: Python :: 3.13",
 #  "Topic :: Scientific/Engineering :: Astronomy"
 #]
-#requires-python = ">=3.8"
-#
-#dependencies = [
-#  "astropy",
-#  "matplotlib",
-#  "numpy",
-#  "scipy",
-#  "sdeconv",
-#  "tqdm",
-#  "pyyaml",
-#  "click",
-#  "cloup"
-#]
+dependencies = [
+  "astropy",
+  "matplotlib",
+  "numpy",
+  "scipy",
+  "sdeconv",
+  "tqdm",
+  "pyyaml",
+  "click",
+  "cloup"
+]
 
 #[project.scripts]
 #3dcubegen = "bin.3dcubegen"
