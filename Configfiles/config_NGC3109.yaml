@@ -1,0 +1,30 @@
+sincube:
+  - survey_type: LVM
+    redux_dir: /mnt/data/sdsswork/lvm/spectro/redux/
+    out_path: /mnt/data/out_cubes/
+    redux_ver: 1.2.0
+    
+    nameF: NGC3109
+    pathF: /home/cespinosa/Codes/3DCubeGen/Examples/
+    basename: lvmSFrame-NAME.fits
+    sigm_s: 32.2
+    pix_s: 0.0
+    alph_s: 2
+    use_slitmap: true
+    pbars: True
+    spec_range: [0,0]
+    errors: true
+    flu16: true
+    path_sas: /mnt/data/
+    fac_sizeX: 1.2
+    fac_sizeY: 1.2
+    cent: false
+    coord_cen: [0,0]
+
+    mergecube: true
+    force_merge: false
+    index_reset: 0
+    nsp: 0
+
+    cube2rss: false 
+    nproc: 4
